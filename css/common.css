@@ -6,7 +6,7 @@
 	float: right;
 }
 @font-face {
-    font-family: 'icomoon';
+    font-family: 'icomoon'; /* 声明 */
     src:  url('../fonts/icomoon.eot?7kkyc2');
     src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
     url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
@@ -16,9 +16,9 @@
   font-style: normal;
 }
 .fr .icomoon {
-	font-family: 'icomoon';
+	font-family: 'icomoon'; /* 引用icon */
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 26px; /* 文字居中 */
 }
 /*版心*/
 .w {
@@ -32,8 +32,10 @@
 	width: 1px;
 	height: 12px;
 	background-color: #666;
-	margin: 9px 12px 0;
+	margin: 9px 12px 0; /* 上 左右 下 */
 }
+
+
 /*顶部快捷导航*/
 .shortcut {
 	height: 31px;
@@ -43,17 +45,21 @@
 .shortcut li {
 	float: left;
 }
+
+
 /*header区域*/
-.header {
+header {
 	position: relative;
 	height: 105px;
+	/* background-color: pink; */
 }
 .logo {
-	position: absolute;
+	position: absolute; /* 子绝父相 */
 	top: 25px;
 	left: 0;
 	width: 175px;
 	height: 56px;
+	/* background-color: purple; */
 }
 .logo a {
 	display: block;
@@ -61,8 +67,13 @@
 	width: 175px;
 	height: 56px;
 	background: url(../img/logo.png) no-repeat;
-	/*text-indent: -999px;*/
-	font-size: 0;
+	/* 链接 里面要放文字（网站名称） 为了搜索引擎收录我们 但是文字不要显示出来  */
+	font-size: 0; 
+	/* 	
+	这样写也可以不显示出来：
+	text-indent: -999px; 移到盒子外面
+	overflow:hidden; 溢出隐藏
+	 */
 }
 .search {
 	position: absolute;
