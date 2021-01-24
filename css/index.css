@@ -1,0 +1,186 @@
+/* 这里写 首页的 CSS */
+.main {
+  width: 981px;
+  height: 455px;
+  margin-left: 219px;
+  margin-top: 10px;
+}
+
+.focus {
+  position: relative;
+  width: 720px;
+  height: 455px;
+  background-color: purple;
+}
+
+
+.arrow-l,
+.arrow-r {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 24px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'icomoon';
+}
+.arrow-r {
+  right: 0;
+}
+
+.circle {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+.circle li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  margin: 0 5px;
+  /* background-color: #fff; */
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  /* 鼠标经过显示 小手 */
+  cursor: pointer;
+}
+
+.current {
+  background-color: #fff;
+}
+
+.newsflash {
+  width: 251px;
+  height: 455px;
+  /* background-color: green; */
+}
+
+.news {
+  height: 163px;
+  border: 1px solid #ccc;
+  /* background-color: pink; */
+}
+.news-hd {
+  height: 32px;
+  border-bottom: 1px dotted #ccc;
+  line-height: 32px;
+  /* margin-left: 10px; */
+  font-family: 'icomoon';
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.news-hd a {
+  float: right;
+  font-size: 12px;
+  padding-right: 20px;
+}
+
+.news-bd {
+  padding: 10px 0 0 15px;
+}
+
+.news-bd li{
+  height: 23px;
+}
+
+.lifeservice {
+  overflow: hidden;
+  height: 208px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.lifeservice ul {
+  width: 252px;
+}
+.lifeservice li {
+  float: left;
+  position: relative;
+  width: 62px;
+  height: 70px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+  overflow: hidden; /* 解决icon 引起的 外边距塌陷合并 */
+  display: block;
+  height: 100%;
+}
+.lifeservice li p {
+  text-align: center;
+}
+.service_icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../img/icons.png) no-repeat;
+  margin: 10px auto;
+}
+.service_icon_huafei {
+  background-position: -17px -16px;
+}
+.hot {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 15px;
+  background: url(../img/jian.jpg) no-repeat
+}
+.service_icon_jipiao {
+  background-position: -78px -16px;
+}
+
+.bargain {
+  height: 75px;
+  margin-top: 5px;
+}
+
+/* 推荐服务模块 */
+.recommend {
+  height: 163px;
+  background-color: pink;
+  margin-top: 10px;
+}
+
+.recom-hd {
+  width: 200px;
+  height: 163px;
+  background-color: #5c5251;
+  text-align: center;
+
+}
+
+.recom-hd img {
+  margin: 30px 0 10px 0;
+}
+
+.recom-hd h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.recom-bd {
+  width: 1000px;
+  height: 163px;
+  background-color: #ebebeb;
+}
+
+.recom-bd li {
+  margin-top: 10px;
+  float: left;
+  width: 249px;
+  border-right: 1px solid #ccc;
+  height: 145px;
+
+}
+
+.recom-bd .last{
+  border-right: 0;
+}
+
