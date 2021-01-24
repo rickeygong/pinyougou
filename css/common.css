@@ -172,11 +172,13 @@ header {
 	padding: 0  10px;
 	font-size: 14px;
 	color: #fff;
+	transition: padding-left 0.5s;
 }
 
 .menu_item:hover {
 	background-color: #fff;
 	color: #b1191a;
+	padding-left: 20px;
 }
 
 .menu_item:hover a {
@@ -310,3 +312,5 @@ footer {
 .mod_copyright_info {
 	line-height: 18px;
 }
+
+
