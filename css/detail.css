@@ -1,0 +1,52 @@
+.de_container {
+  margin-top: 20px;
+}
+.crumb_wrap {
+  height: 30px;
+}
+.crumb_wrap a {
+  margin-right: 10px;
+
+}
+.preview_wrap {
+  width: 400px;
+  height: 590px;
+}
+
+
+
+.preview_img {
+  height: 398px;
+  border: 1px solid #ccc
+  
+}
+.preview_list {
+  height: 60px;
+  margin-top: 60px;
+  /* border: 1px solid red; */
+}
+
+.list_item {
+  width: 320px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.list_item li {
+  float: left;
+  width: 56px;
+  height: 56px;
+  border: 2px solid transparent;
+  margin: 0 2px;
+}
+.list_item li.current {
+  border-color: #c81623;
+}
+.list_item li:hover {
+  border: 2px solid #c81623;
+}
+
+.itemInfo_wrap {
+  width: 718px;
+  background-color: purple;
+}
